@@ -5,6 +5,7 @@
 *.pdf
 *.psd
 *.sublime*
+css/*.css
 yarn.lock
 build/
 node_modules/
