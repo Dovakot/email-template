@@ -1,6 +1,6 @@
 {
   "name": "email-template",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Шаблон для email рассылок",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -8,15 +8,15 @@
     "start": "npm run build && gulp serve"
   },
   "devDependencies": {
-    "autoprefixer": "^7.2.5",
-    "browser-sync": "^2.23.6",
+    "autoprefixer": "^8.5.0",
+    "browser-sync": "^2.24.4",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-imagemin": "^4.1.0",
-    "gulp-inline-css": "^3.1.2",
+    "gulp-inline-css": "^3.3.0",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^7.0.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "run-sequence": "^2.2.1"
   }
 }
