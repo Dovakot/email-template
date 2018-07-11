@@ -17,7 +17,7 @@ gulp.task('clean', function () {
 
 gulp.task('copy', function () {
   return gulp.src([
-    'img/**'
+    'source/img/**'
   ], {
     base: 'source'
   })

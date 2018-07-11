@@ -1,0 +1,6 @@
+@mixin col($width) {
+  display: inline-block;
+  max-width: $width;
+  width: 100%;
+  vertical-align: top;
+}

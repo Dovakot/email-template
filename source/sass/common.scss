@@ -1,5 +1,38 @@
 body {
+  min-width: 100%;
   margin: 0;
   padding: 0;
-  background-color: $color-default;
+  background-color: #ffffff;
+}
+
+table {
+  border-spacing: 0;
+  font-family: sans-serif;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
+}
+
+td {
+  padding: 0;
+  line-height: 100%;
+  mso-line-height-rule: exactly;
+}
+
+img {
+  height: auto;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+td,
+span {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: $color-default;
 }

@@ -1,3 +1,11 @@
 .table {
-  background-color: $color-default;
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 0;
+  table-layout: fixed;
+}
+
+.table__container {
+  padding: 0 10px;
 }
